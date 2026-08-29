@@ -10,4 +10,15 @@ package = false
 [tool.uv.workspace]
 members = [
     "packages/*",
+    "ai/iron-ai-model",
+    "ai/iron-ai-prompt",
+    "ai/iron-ai-tool",
+    "ai/iron-ai-context",
+    "ai/iron-ai-workflow",
+    "ai/iron-ai-rag",
+    "ai/iron-ai-agent",
+    "ai/iron-ai-evaluation",
+    "integrations/iron-openai",
+    "integrations/iron-langchain",
+    "integrations/iron-langgraph",
 ]

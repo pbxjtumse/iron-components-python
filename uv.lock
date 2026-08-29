@@ -2,7 +2,126 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[manifest]
+members = [
+    "iron-ai-agent",
+    "iron-ai-context",
+    "iron-ai-evaluation",
+    "iron-ai-model",
+    "iron-ai-prompt",
+    "iron-ai-rag",
+    "iron-ai-tool",
+    "iron-ai-workflow",
+    "iron-cache",
+    "iron-components-python",
+    "iron-concurrency",
+    "iron-config",
+    "iron-foundation",
+    "iron-langchain",
+    "iron-langgraph",
+    "iron-message",
+    "iron-observability",
+    "iron-openai",
+    "iron-retry",
+    "iron-serialization",
+]
+
+[[package]]
+name = "iron-ai-agent"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-agent" }
+
+[[package]]
+name = "iron-ai-context"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-context" }
+
+[[package]]
+name = "iron-ai-evaluation"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-evaluation" }
+
+[[package]]
+name = "iron-ai-model"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-model" }
+
+[[package]]
+name = "iron-ai-prompt"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-prompt" }
+
+[[package]]
+name = "iron-ai-rag"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-rag" }
+
+[[package]]
+name = "iron-ai-tool"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-tool" }
+
+[[package]]
+name = "iron-ai-workflow"
+version = "0.1.0"
+source = { editable = "ai/iron-ai-workflow" }
+
+[[package]]
+name = "iron-cache"
+version = "0.1.0"
+source = { editable = "packages/iron-cache" }
+
 [[package]]
 name = "iron-components-python"
 version = "0.1.0"
 source = { virtual = "." }
+
+[[package]]
+name = "iron-concurrency"
+version = "0.1.0"
+source = { editable = "packages/iron-concurrency" }
+
+[[package]]
+name = "iron-config"
+version = "0.1.0"
+source = { editable = "packages/iron-config" }
+
+[[package]]
+name = "iron-foundation"
+version = "0.1.0"
+source = { editable = "packages/iron-foundation" }
+
+[[package]]
+name = "iron-langchain"
+version = "0.1.0"
+source = { editable = "integrations/iron-langchain" }
+
+[[package]]
+name = "iron-langgraph"
+version = "0.1.0"
+source = { editable = "integrations/iron-langgraph" }
+
+[[package]]
+name = "iron-message"
+version = "0.1.0"
+source = { editable = "packages/iron-message" }
+
+[[package]]
+name = "iron-observability"
+version = "0.1.0"
+source = { editable = "packages/iron-observability" }
+
+[[package]]
+name = "iron-openai"
+version = "0.1.0"
+source = { editable = "integrations/iron-openai" }
+
+[[package]]
+name = "iron-retry"
+version = "0.1.0"
+source = { editable = "packages/iron-retry" }
+
+[[package]]
+name = "iron-serialization"
+version = "0.1.0"
+source = { editable = "packages/iron-serialization" }
